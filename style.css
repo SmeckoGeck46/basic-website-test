@@ -1,0 +1,40 @@
+body {
+    width: 80ch; /*best for preventing a horizontal scroll bar*/
+    max-width: 100%; /*best for preventing a horizontal scroll bar*/
+    margin: auto;
+    background-color: #f1ffe3;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+} h1, h2{
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+} p {
+    line-height: 1.5;
+    color: #0d0317;
+    /*margin: 0 auto 20px auto; /*order: top, right, bottom, left*/
+/*} p:first-of-type {
+    color: navy;
+    font-weight: bold;*/
+}  .blueStuff{
+    margin-top: 50px;
+    color: navy;
+    font-weight: bold;
+    font-size: 110%;
+} .link { /*this is a class*/
+    background-color: #93d7ff;
+    padding: 15px 25px 15px 25px; /*order: top, right, bottom, left*/
+    border-radius: 12px; /*rounded edges*/
+    color: black;
+    margin-right: 25px;
+} .link:hover {
+    background: #6c8bc1;
+} hr {
+    background-color: #aec2af;
+    margin-top: 55px;
+    border: none;
+    height: 1px;
+} hr + p {
+    color: #677a6e;
+    font-size: 85%;
+    font-style: italic;
+  }
